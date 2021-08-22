@@ -1,0 +1,55 @@
+@media (max-width: 1400px) {
+  .web-dev-image {
+    width: 20rem;
+    height: 20rem;
+  }
+  .Hero__text {
+    margin-right: 35rem;
+    padding-left: 20px;
+  }
+  .h-img {
+    width: 350px;
+  }
+  .Hero-image-item-1 {
+    position: absolute;
+    right: 225px;
+    top: 300px;
+  }
+  .Hero-image-item-2 {
+    position: absolute;
+    right: 25px;
+    margin-top: 10rem;
+  }
+
+  .features__item,
+  .learning__item,
+  .course-label {
+    width: 18rem;
+  }
+  .learning-section,
+  .features-section {
+    gap: 3rem;
+  }
+  .tutor-section-profile {
+    width: 18rem;
+  }
+  .tutor-full-profile {
+    right: 30px;
+  }
+  .tutors-section-text {
+    width: 35rem;
+  }
+  .slideshow-container {
+    width: 750px;
+  }
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .email {
+    width: 25rem;
+  }
+  .contact-section .primary-btn {
+    margin-left: 14rem;
+  }
+}

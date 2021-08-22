@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@300&display=swap");
+
+:root {
+  --green: #15df03;
+  --orange: #f4472f;
+  --light-orange: #f78a7b;
+  --light-pink: #f17ab3;
+  --yellow: #e6b85f;
+  --purple: #d92ff4;
+  --light-blue: #89ceff;
+  --blue: #2fadf4;
+  --bright-yellow: #ffc908;
+  --dark-purple: #b148ff;
+  --dark-blue: #404040;
+  --light-orange: #fd9347;
+  --blue-green: #2f9999;
+  --grey: grey;
+}
+/* genral / shared styles */
+
+.boxes {
+  border-radius: 10px;
+  background: var(--dark-blue);
+}
+
+.flex-aligned {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.flex-aligned-start {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.flex-aligned-center {
+  justify-content: center;
+}
+.flex-aligned-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.fd-column {
+  flex-direction: column;
+}
+
+/* Navbar */
+
+.Navbar__links {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.Navbar {
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.Navbar__items {
+  gap: 3rem;
+}
+
+.Navbar__links:hover {
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+}
+/* hero */
+.Hero__image {
+  width: 50rem;
+  gap: 4rem;
+}
+.courses {
+  width: 8.5rem;
+  height: 5rem;
+}
+
+.current-stats {
+  gap: 5px;
+  width: 15rem;
+  height: 8rem;
+  padding: 10px 5px;
+}
+
+.hint {
+  margin-top: -3rem;
+  margin-left: -4rem;
+  position: absolute;
+}
+
+.Hero-image-item-2 {
+  position: absolute;
+  right: 2px;
+  margin-top: 27rem;
+}
+.Hero-image-item-1 {
+  position: absolute;
+  right: 225px;
+  top: 100px;
+}
+.h-img-1 {
+  clip-path: polygon(
+    0 0,
+    0% 100%,
+    53% 100%,
+    53% 54%,
+    100% 54%,
+    100% 100%,
+    100% 100%,
+    100% 0
+  );
+}
+
+.Hero__text {
+  width: 35rem;
+  margin-top: 15rem;
+}
+
+.Hero__text .para {
+  padding: 15px 0;
+}
+main {
+  position: relative;
+  margin-top: 25rem;
+}
+/* FEATURES */
+.features-header {
+  text-align: center;
+  max-width: 50rem;
+  margin: auto;
+}
+.features-section {
+  gap: 7rem;
+  margin: 3rem 0;
+}
+.features__item,
+.learning__item {
+  width: 21rem;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.icon-container {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.features__item .med-heading {
+  width: 100%;
+}
+
+/* TUTORS SECTION */
+.tutors-section {
+  gap: 7rem;
+  margin: 10rem 0;
+}
+.tutor-section-profile {
+  width: 20rem;
+  padding: 15px;
+}
+.tutor-profiles {
+  gap: 1.2rem;
+}
+.profile {
+  padding-bottom: 10px;
+}
+.tutors-section-text {
+  width: 45rem;
+}
+.tutors-section-text .primary-btn {
+  margin: 1rem 0;
+}
+
+.verified-icon-container {
+  background: var(--blue-green);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-left: 16rem;
+  margin-top: -2rem;
+}
+.round {
+  border-radius: 50%;
+}
+
+.tutor-full-profile {
+  padding: 10px;
+  position: absolute;
+  right: 80px;
+  margin-top: 10rem;
+  background: rgb(104, 102, 102);
+}
+
+.tutor-full-profile .full-profile-image {
+  margin: 10px 0;
+}
+
+.tutor-full-profile .tutor-profile-label {
+  margin: 15px 0;
+}
+/* learning section */
+.learning-header {
+  text-align: center;
+  margin: 3rem 0;
+}
+.learning-section {
+  gap: 7rem;
+}
+.learning__item {
+  width: 19.6rem;
+  height: 20rem;
+}
+
+.learning__item .med-heading {
+  font-size: 1.4rem;
+}
+
+/* COURSES SECTION*/
+.popular-courses-section {
+  margin: 7rem 0;
+  text-align: center;
+}
+.courses-section {
+  gap: 3rem;
+}
+.course-label {
+  width: 20rem;
+  padding: 20px 10px;
+  margin-top: -4rem;
+  height: 14rem;
+}
+.courses-section .med-heading {
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+
+.courses-section .small {
+  padding: 10px 0;
+  color: var(--grey);
+  font-weight: 600;
+}
+
+.popular-courses-section .primary-btn {
+  width: 12rem;
+  margin: 3rem 45%;
+}
+
+/* Testimonials section */
+.testimonial-header {
+  text-align: center;
+}
+.slideshow-container {
+  position: relative;
+  margin: 2rem 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 900px;
+}
+
+.slideshow-container .ratings {
+  padding: 10px 0;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  user-select: none;
+  background: var(--dark-blue);
+  border-radius: 50%;
+  margin-top: -8rem;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 150px;
+}
+.prev {
+  left: 100px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background: var(--green);
+  color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.contact-section {
+  margin: 10rem 0;
+  text-align: center;
+}
+.contact-section .med-heading {
+  width: 100%;
+  padding: 20px 0;
+}
+.contact-section .primary-btn {
+  position: absolute;
+  margin-left: 19rem;
+}
+.email {
+  width: 30rem;
+  height: 3.8rem;
+  background: inherit;
+  outline: none;
+  border: 2px solid var(--green);
+}
+
+.email::placeholder {
+  color: var(--green);
+  font-size: 1rem;
+  padding: 10px;
+}
+/* footer */
+.footer-section {
+  justify-content: space-evenly;
+  gap: 3rem;
+  padding: 10px 30px;
+}
+.footer__item {
+  align-items: flex-start;
+  width: 18rem;
+  gap: 1rem;
+}

@@ -1,0 +1,190 @@
+@import "/styles/style.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@300&display=swap");
+
+:root {
+  --green: #15df03;
+  --orange: #f4472f;
+  --light-orange: #f78a7b;
+  --light-pink: #f17ab3;
+  --yellow: #e6b85f;
+  --purple: #d92ff4;
+  --light-blue: #89ceff;
+  --blue: #2fadf4;
+  --bright-yellow: #ffc908;
+  --dark-purple: #b148ff;
+  --dark-blue: #404040;
+  --light-orange: #fd9347;
+  --blue-green: #2f9999;
+  --grey: grey;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background: black;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+/* images */
+img {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  width: 8rem;
+}
+
+.h-img {
+  width: 400px;
+}
+
+.intro-icon {
+  width: 1.5rem;
+}
+
+.class-icon {
+  background: var(--purple);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.task-icon {
+  background: var(--orange);
+}
+.conver-icon {
+  background: var(--yellow);
+}
+.courses-icon {
+  background: var(--light-pink);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.features-icon {
+  width: 2rem;
+}
+.profile-image {
+  width: 3rem;
+}
+.full-profile-image {
+  width: 7rem;
+}
+.verified {
+  width: 2rem;
+}
+.arrow {
+  width: 2rem;
+}
+.star {
+  width: 1.3rem;
+}
+
+.web-dev-image {
+  width: 25rem;
+  height: 23rem;
+}
+.green-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--green);
+}
+.testimonial-image {
+  width: 10rem;
+  height: 10rem;
+}
+.quote {
+  width: 10rem;
+  position: absolute;
+}
+.invert {
+  margin-bottom: -3rem;
+  transform: rotate(180deg);
+  left: 10px;
+  bottom: 35%;
+}
+/* typo */
+h1,
+h2,
+h3 {
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+.big-heading {
+  font-size: 4rem;
+  color: white;
+}
+.big-heading-2 {
+  font-size: 1.6rem;
+}
+.sub-header {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+}
+.med-heading-2 {
+  font-size: 1.2rem;
+  margin-top: -2rem;
+  padding-bottom: 20px;
+}
+.med-heading {
+  font-size: 2rem;
+}
+.para {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.small {
+  font-size: 0.9rem;
+}
+.green-text {
+  color: var(--green);
+}
+.bold {
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 300;
+  color: lightgray;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.grey-text {
+  color: var(--grey);
+}
+/* Button / components */
+button {
+  border: transparent;
+  outline: none;
+  padding: 10px;
+  font-weight: 700;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.primary-btn {
+  background: var(--green);
+  color: black;
+  font-size: 1.3rem;
+}
