@@ -27,6 +27,7 @@
 
 - HTML
 - CSS
+- Javascript
 - and energy
 
 ### Acknowlegement
